@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Développeur Laravel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mon Portfolio</div>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-icon">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<!--section à propos de moi-->  
+
+        <section id="about">
+            <h1>À propos</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Bonjour! Je suis <strong>Gaudet Azoley Andre Junior</strong>, un développeur passionné et autodidacte en Laravel, désireux de commencer une carrière dans le développement web. Bien que je sois nouveau dans le domaine professionnel, j'ai consacré beaucoup de temps à apprendre et à maîtriser le framework Laravel.</p>
+                    <p>J'ai travaillé sur plusieurs projets personnels et académiques qui m'ont permis de développer une compréhension solide de Laravel et de PHP. Mes compétences incluent la création de sites wet et d'applications web dynamiques, la mise en œuvre de bases de données relationnelles avec Eloquent ORM, et le développement d'API RESTful.</p>
+                    <p>Je suis également familier avec les technologies front-end telles que HTML, CSS, et JavaScript, ce qui me permet de créer des interfaces utilisateur interactives et modernes.</p>
+                    <p>Je suis constamment à la recherche de nouvelles opportunités pour améliorer mes compétences et acquérir de l'expérience pratique. Je suis enthousiaste à l'idée de collaborer sur des projets innovants et d'apprendre des développeurs expérimentés. N'hésitez pas à me contacter si vous avez des opportunités de stage, des projets freelance ou si vous souhaitez simplement discuter de développement web!</p>
+                </div>
+                <img class="profile-pic" src="images/pexels-photo-2220337.jpeg" alt="photo" title="Ma photo">
+            </div>
+
+        </section>
+
+
+<!--section mes compétences--> 
+
+        <section id="skills">
+            <h1>Compétences</h1>
+            <div class="skills-content">
+                <div class="skill">
+                    <h2>Laravel & PHP</h2>
+                    <p>Bonne compréhension du framework Laravel et de PHP, incluant les concepts fondamentaux comme les routes, les contrôleurs, les vues, les modèles et les migrations de base de données.</p>
+                </div>
+                <div class="skill">
+                    <h2>HTML, CSS & JavaScript</h2>
+                    <p>Compétences solides en développement front-end avec HTML5, CSS3 et JavaScript, permettant de créer des interfaces utilisateur modernes et réactives.</p>
+                </div>
+                <div class="skill">
+                    <h2>API RESTful</h2>
+                    <p>Expérience dans la création et la consommation d'API RESTful pour l'intégration de services et la communication entre applications.</p>
+                </div>
+                <div class="skill">
+                    <h2>Gestion de Bases de Données</h2>
+                    <p>Connaissance des systèmes de gestion de bases de données relationnelles comme MySQL et PostgreSQL, ainsi que de l'ORM Eloquent pour interagir avec les bases de données.</p>
+                </div>
+                <div class="skill">
+                    <h2>Outils de Développement</h2>
+                    <p>Utilisation d'outils comme Composer pour la gestion des dépendances, Git pour le contrôle de version.</p>
+                </div>
+                <div class="skill">
+                    <h2>Principes de Sécurité</h2>
+                    <p>Compréhension des principes de sécurité web, y compris la prévention des injections SQL, des attaques XSS et CSRF.</p>
+                </div>
+                <div class="skill">
+                    <h2>Apprentissage Continu</h2>
+                    <p>Engagement envers l'apprentissage continu à travers la lecture de blogs techniques et la participation à des cours en ligne.</p>
+                </div>
+            </div>
+        </section>
+
+<!--section mes projets-->        
+
+        <section id="projects">
+            <h1>Projets</h1>
+            <div class="projects-content">
+                <div class="project">
+                    <h2>Application de Gestion de pressing</h2>
+                    <p>Développement d'une application web de gestion de pressing avec Laravel. L'application permet dans un premier temps, aux utilisateurs de souscrire à l'une des offres payantes ou gratuite. Dans un second temps de se connecter et enfin de réaliser plusieurs opérations grâce aux fonctionnalités de l'appli notamment: gestion des commandes clients, suivi de l'état des commandes, système de facturation et de tarification, base de données client et gestion du personnel. </p>
+                    <ul>
+                        <li>Utilisation de Laravel pour le back-end et MySQL pour la base de données.</li>
+                        <li>Interface utilisateur construite avec Bootstrap pour une expérience réactive.</li>
+                        <li>Fonctionnalités d'authentification et de gestion des utilisateurs intégrées.</li>
+                    </ul>
+                    <a href="#" target="_blank">Voir sur GitHub</a>
+                </div>
+                <div class="project">
+                    <h2>Application de facturation</h2>
+                    <p>Création d'une application de facturation en Laravel, permettant aux utilisateurs d'automatisés le processus de facturation et leur donnant d'avoir un gain de temps considérable.</p>
+                    <ul>
+                        <li>Implémentation du système de création de factures avec Eloquent ORM.</li>
+                        <li>Design responsive utilisant Bootstrap.</li>
+                    </ul>
+                    <a href="#" target="_blank">Voir sur GitHub</a>
+                </div>
+                <div class="project">
+                    <h2>Application de gestion de stock</h2>
+                    <p>Développement d'une application de gestion de stock, permettant aux entreprises de mieux gérer leurs opérations logistiques et d'optimiser la gestion de leur inventaire, réduisant ainsi les coûts liés aux stocks excédentaires ou aux ruptures de stock, tout en améliorant l'efficacité opérationnelle globale.</p>
+                    <ul>
+                        <li>Utilisation de Laravel pour le back-end et MySQL pour la base de données.</li>
+                        <li>Implémentation de fonctionnalités de suivi des mouvements de stocks.</li>
+                    </ul>
+                    <a href="" target="_blank">Voir sur GitHub</a>
+                </div>
+                <div class="project">
+                    <h2>Application de gestion de notes d'élèves</h2>
+                    <p>Développement d'une application de gestion de notes d'élèves. Une application permettant aux différents établissements scolaires et aux parents d'élèves d'avoir un suivis sur le rendement de leurs élèves.</p>
+                    <ul>
+                        <li>Utilisation de Php pour le back-end et MySQL pour la base de données.</li>
+                        <li>Compatibilité multi-plateforme (ordinateur, tablette, smartphone) à l'aide de Bootstrap.</li>
+                    </ul>
+                    <a href="" target="_blank">Voir sur GitHub</a>
+                </div>
+            </div>
+        </section>
+        
+
+<!--section mes contacts-->  
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <div class="contact-content">
+                <p>Je suis enthousiaste à l'idée de collaborer sur des projets intéressants et d'apprendre de nouvelles expériences. N'hésitez pas à me contacter par email ou via les réseaux sociaux!</p>
+                <ul>
+                    <li>Email: gaudet.andre225@gmail.com</li>
+                    <li>Téléphone(s): +2250103286759 / +225 0767523346</li>
+                    <li><a href="#" target="_blank">LinkedIn</a></li>
+                    <li><a href="#" target="_blank">GitHub</a></li>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <!-- Ajoutez d'autres liens vers vos réseaux sociaux ou profils professionnels -->
+                </ul>
+                <form action="#" method="post">
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
